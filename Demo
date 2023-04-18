@@ -1,4 +1,4 @@
-//Demo 1
+//Tính toán phần trăm thay đổi và tổng khối lượng giao dịch
 
 Sub stock_hw()
  
@@ -117,7 +117,9 @@ For Each ws In Worksheets
 End Sub
 
 
-//Demo 2
+
+
+//Tính toán chỉ số RSi
 
 Function RSI(rng As Range, nDays As Integer) As Variant
     Dim dPrice() As Double
